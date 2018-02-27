@@ -1,0 +1,431 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+li{list-style:none}
+a,a:hover{text-decoration:none;color: #333;}
+html, body {
+    position: relative;
+    font-family:"微软雅黑";
+    font-size: 12px;
+}
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+.clear{ zoom: 1; }
+
+.clear:after { content: ''; display: block; clear: both; }
+
+body{
+    padding-bottom: 1.3rem;
+   background: -webkit-linear-gradient(left, #E2E9F1, #C4D3E3);
+   background: -o-linear-gradient(left,#E2E9F1, #C4D3E3);
+   background: -moz-linear-gradient(left,#E2E9F1, #C4D3E3);
+   background: -ms-linear-gradient(left,#E2E9F1, #C4D3E3);
+}
+
+.voice{
+    width: .54rem;
+}
+
+/********头部滚动结束头条部分***********************************/
+.tou{
+	overflow: hidden;
+    padding:.06rem .69rem;
+    background: #F1ECE6;
+}
+
+.tou .tou1 {
+	float: left;
+	width: .4rem;
+}
+.xinxi{
+	width: 5rem;
+	height:20px;
+	font-size: 0.2rem;
+	overflow: hidden;
+    float: left;
+    margin-left: .25rem;
+}
+
+.right_icon{
+    width: .15rem;
+    height: .25rem;
+    background: url(../images/right.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin-top: .05rem;
+}
+
+.wrap{
+    padding: 0 .38rem;
+}
+
+.main1{
+    padding-bottom: .32rem;
+    padding-top: .56rem;
+}
+
+.main1_left img{
+    width: 1.26rem;
+}
+
+.line{
+    font-size: 0;
+    margin-top: .13rem;    
+}
+
+.line span{
+    display: inline-block;
+    height: 2px; 
+    width: 50%;   
+}
+
+.name{
+    margin-top: .6rem;    
+}
+
+.name h3{
+    font-size:.4rem;
+    color: #4D4D4D;
+    padding-left: .06rem;
+    font-weight: normal;
+}
+
+.line1{
+    background: #005387;
+}
+
+.line2{
+    background: #65C8D0;
+}
+
+.pic img{
+    width:100%;
+    /*height: 3.3rem;*/
+}
+
+.main1_left{
+    width: 1.26rem;
+}
+
+.pic{
+    width: 5.2rem;
+    margin-left: .2rem;
+}
+/* 信息中心 */
+.infor_center_title{
+    /*font-size: .28rem;*/
+    padding: .12rem;
+    /*background: #F2F2F2;*/
+    color: #505050;
+}
+
+.down_icon{
+    width: .32rem;
+    height: .17rem;
+    background: url(../images/down.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin-top: .45rem;;
+    transition: all .3s;
+}
+
+.down_icon.trasform{
+    transform: rotate(180deg);
+}
+
+.work_infor{margin-top: .27rem;display: none;}
+
+.work_infor h4{
+    width: 1.8rem;
+    height: .45rem;
+    background: -webkit-linear-gradient(top, #1D8BB6, #3276A0,#0D9BC8);
+    text-align: center;
+    font-size: .23rem;
+    color: #fff;
+    line-height: .45rem;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.work_infor_list{
+    padding: .16rem .24rem .14rem .26rem;
+    background: #00A8D6;
+    font-size: .2rem;
+    color: #fff;
+    margin-bottom: .15rem;
+}
+
+.work_infor_list p{margin-bottom: .12rem;}
+
+.kehu_into{
+   /* margin-top: .26rem;
+    padding-top: .26rem;*/
+    /*border-top: 1px solid #919DAB;*/
+}
+
+.kehu_into h4{
+    width: 1.8rem;
+    height: .45rem;
+    background: -webkit-linear-gradient(top, #005487, #3276A0,#00598C);
+    text-align: center;
+    font-size: .23rem;
+    color: #fff;
+    line-height: .45rem;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    width: 100%;
+    height: .45rem;
+    background: -webkit-linear-gradient(top, #005487, #3276A0,#00598C);
+    text-align: center;
+    font-size: .23rem;
+    color: #fff;
+    line-height: .45rem;
+    margin-top: .14rem;
+}
+
+.tbl{
+    width: 100%;
+    border:0;
+    color: #fff;
+}
+
+
+th{
+    background: #3784B5;
+}
+tr td,th{
+    height: .49rem;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+}
+
+tr td{color: #333;}
+
+.tb2 tr td{
+    background: #E6E6E6;
+}
+
+.tb2 tr td:nth-child(odd){
+    background: #F2F2F2;
+}
+
+.pat21{
+    padding-top: .21rem;
+    border-top: 1px solid #A3A8AE;
+}
+
+.pab21{padding-bottom: .21rem;}
+
+.tb3{margin-top: .2rem;}
+
+.tb3 i{
+    display: block;
+    margin: 0 auto .16rem;
+}
+
+.tb3 td{
+    background: #fff;
+    border:1px solid #D4ECF3;
+    padding: .25rem 0;
+    font-size: .2rem;
+    width: 25%;
+}
+
+.tb3 td a{
+    color: #000;
+}
+
+.suifang{
+    width: .58rem;
+    height: .52rem;
+    background: url(../images/suifang.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.peixun{
+    width: .55rem;
+    height: .58rem;
+    background: url(../images/peixun.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.fujin{
+    width: .58rem;
+    height: .52rem;
+    background: url(../images/fujin.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.baobiao{
+    width: .55rem;
+    height: .53rem;
+    background: url(../images/baobiao.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.fankui{
+     width: .65rem;
+    height: .62rem;
+    background: url(../images/fankui.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.chuchai{
+     width: .55rem;
+    height: .54rem;
+    background: url(../images/chuchai.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.pxxiangmu{
+     width: .53rem;
+    height: .56rem;
+    background: url(../images/pxxiangmu.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.caigou{
+     width: .64rem;
+    height: .56rem;
+    background: url(../images/caigou.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.lingyong{
+    width: .67rem;
+    height: .67rem;
+    background: url(../images/lingyong.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.shouce{
+    width: .52rem;
+    height: .59rem;
+    background: url(../images/shouce.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.chaxun{
+    width: .58rem;
+    height: .59rem;
+    background: url(../images/chaxun.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.team{
+    width: .59rem;
+    height: .63rem;
+    background: url(../images/team.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.cpx{
+     width: .57rem;
+    height: .58rem;
+    background: url(../images/co.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.wuliao{
+    width: .61rem;
+    height: .60rem;
+    background: url(../images/zhanshi.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+footer{
+    width: 100%;
+    background: #005387;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer li{
+    width: 19.7%;
+    float: left;
+    padding: .12rem  0;
+    text-align: center;
+    border-right: 1px solid #025C8E;
+
+}
+
+footer li:last-child{border-right: 0;}
+
+footer li img{
+    margin: 0 auto;
+    display: block;
+    height: .38rem;
+}
+
+footer li p{
+    color: #fff;
+    margin-top: .12rem;
+}
+
+
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+
+.slideBox{overflow:hidden; position:relative;}
+
+.txtMarquee-left{position:relative;height: 20px;}
+
+.txtMarquee-left .bd .tempWrap{width: 1000000px !important; }/* 用 !important覆盖SuperSlide自动生成的宽度，这样就可以手动控制可视宽度。 */
+.txtMarquee-left .bd ul{ overflow:hidden; zoom:1;height: 20px;width: 10000px !important; }
+.txtMarquee-left .bd ul li{
+    font-size: .21rem;
+    margin-right:.2rem;
+    float:left;
+    height:20px;
+    line-height:20px;
+    text-align:left;
+     _display:inline;
+     width:auto !important; 
+ }
+
+.txtMarquee-left .bd ul li a{
+    color: #F15A24;
+ }
+
+
+.slideBox .hd{ height:6px; overflow:hidden; position:absolute; right:12px; bottom:12px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:6px;  width:6px; height:6px; background:#666666; cursor:pointer;border-radius: 50%; }
+.slideBox .hd ul li.on{ background:#fff;}
+
+.xin{
+    display: inline-block;
+    width: 1rem;
+    font-weight: 700;
+    height: 1.2rem;
+    font-size: .36rem;
+    color: #134A70;
+    padding-right: .35rem;
+    border-right: 1px solid #005387;
+    margin-right: .2rem;
+}
+
+.xin_List{
+    font-size: .25rem;
+}
+
+.xin_List b{color:#555556;font-weight: normal; }
+
+.xin_List b:first-child{color:#134A70; }
+
+.infor_center_t{
+    padding: .13rem;
+    font-size: .28rem;
+    color: #333;
+    background: #f2f2f2;
+}
+
+.infor_center_t .down_icon {
+        margin-top: .05rem;
+}
